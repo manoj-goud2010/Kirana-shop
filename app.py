@@ -21,10 +21,10 @@ UPLOADS = os.path.join(ROOT, "uploads")
 os.makedirs(UPLOADS, exist_ok=True)
 
 ADMIN_EMAIL = os.environ.get(
-    "ADMIN_EMAIL", "manoj-kirana.lokal@gmail.com"
+    "ADMIN_EMAIL", "manoj-kirana.shop@gmail.com"
 ).strip().lower()
 ADMIN_PASSWORD = os.environ.get(
-    "ADMIN_PASSWORD", "CHANGE_TO_A_NEW_STRONG_PASSWORD"
+    "ADMIN_PASSWORD", "Manoj@#13579"
 )
 
 HELP_PHONE = "6372245966"
